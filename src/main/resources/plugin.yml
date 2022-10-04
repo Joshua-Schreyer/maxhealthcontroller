@@ -1,0 +1,10 @@
+name: MaxHealthController
+version: '${version}'
+main: com.joshuaschreyer.maxhealthcontroller.MaxHealthController
+api-version: 1.19
+load: STARTUP
+authors: [ JoshuaSchreyer ]
+commands:
+  maxhealth:
+    description: Controls the max health of a player
+    usage: /<command> [mode] [target] [value]
